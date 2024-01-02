@@ -1,0 +1,5 @@
+.news-item-container {
+    border: 1px solid #ccc; /* Adjust the border style and color as needed */
+    margin-bottom: 20px; /* Optional margin to separate news items */
+    padding: 10px; /* Optional padding for better visual appearance */
+}
