@@ -8,48 +8,97 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
+        #Side-Bar{
+            background-color: deepskyblue;
+        }
+        header{
+            background-color: mediumseagreen;
+        }
+        body {
+            font-family: verdana;
+        }
+
         h2 {
             margin-bottom: 0;
         }
 
         .custom-container {
-            width: 80%;
-            padding-right: 3;
-            padding-left: 3;
+            width: 62%;
+            margin-top: 20px;
             margin-right: auto;
             margin-left: auto;
+        }
 
+        .col-3 {
+            width: 24.12%;
+        }
+
+        .colLink {
+            color: black;
+            text-decoration: none;
+        }
+
+        .rowLink {
+            color: black;
+        }
+
+        footer {
+            
+            font-size: x-small;
         }
     </style>
 </head>
 
 <body class="custom-container ">
-    <header class="m-1 p-2 bg-success text-light border rounded">
+    <header class="m-1 p-3 text-light border rounded">
         <h2><b>Welcome to My Homepage</b></h2>
         Use the menu to select different Stylesheets
     </header>
     <div class="row">
         <div class="col-3">
-            <div class="m-1 p-1 bg-light border rounded">Stylesheet 1</div>
-            <div class="m-1 p-1 bg-light border rounded">Stylesheet 2</div>
-            <div class="m-1 p-1 bg-light border rounded">Stylesheet 3</div>
-            <div class="m-1 p-1 bg-light border rounded">Stylesheet 4</div>
-            <div class="m-1 p-1 bg-light border rounded">No Stylesheet</div>
+            <div class="m-1 p-1 bg-light border rounded"><a class="colLink"
+                    href="http://localhost/w3css/index.html">Stylesheet 1</a>
+            </div>
+            <div class="m-1 p-1 bg-light border rounded"><a class="colLink"
+                    href="http://localhost/w3css/index.html">Stylesheet 2</a></div>
+            <div class="m-1 p-1 bg-light border rounded"><a class="colLink"
+                    href="http://localhost/w3css/index.html">Stylesheet 3</a></div>
+            <div class="m-1 p-1 bg-light border rounded"><a class="colLink"
+                    href="http://localhost/w3css/index.html">Stylesheet 4</a></div>
+            <div class="m-1 p-1 bg-light border rounded"><a class="colLink" href="http://localhost/w3css/index.html">No
+                    Stylesheet</a></div>
         </div>
-        <div class="col-6">
-            <h1><b>Same Page Different Stylesheets</b></h1>
+        <div class="col-6 py-3">
+            <h2><b>Same Page Different Stylesheets</b></h2>
+            <div class="py-2">
+                <div>This is a demonstration of how different stylesheets can change the layout of your HTML page. You
+                    can
+                    change the layout of this page by selecting different stylesheets in the menu, or by selecting one
+                    of
+                    the following links:</div>
+                <div><a class="rowLink" href="http://localhost/w3css/index.html">Stylesheet1</a>, <a class="rowLink"
+                        href="http://localhost/w3css/index.html">Stylesheet2</a>, <a class="rowLink"
+                        href="http://localhost/w3css/index.html">Stylesheet3</a>, <a class="rowLink"
+                        href="http://localhost/w3css/index.html">Stylesheet4</a>.</div>
+            </div>
+            <div class="h3"><b>No Styles</b></div>
+            <div>This page uses DIV elements to group different sections of the HTML page. Click here to see how the
+                page looks like with no stylesheet:</div>
+            <div><a class="rowLink" href="http://localhost/w3css/index.html">No Stylesheet</a>.</div>
         </div>
-        <div class="col-3 border rounded bg-info text-white">
-            <div>Side-Bar</div>
-            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo praesentium voluptas cupiditate
-                laboriosam qui inventore autem, excepturi ab incidunt molestiae et vero officia ex similique est, sunt
-                veniam. Sint, ratione!</div>
+        <div class="col-3 my-1 border rounded text-white" id="Side-Bar">
+            <div class="h4 py-3"><b>Side-Bar</b></div>
+            <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat.</div>
+
         </div>
     </div>
-    <footer>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi tenetur rerum aliquid perspiciatis, dicta
-        sapiente magni adipisci aliquam. Ex magnam vitae neque aliquam dolorem eveniet laudantium soluta consequatur
-        excepturi magni.
+    <footer class="border rounded m-1 p-2 text-center bg-light">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+        suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+        vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
+        iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
     </footer>
 </body>
 
